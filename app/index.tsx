@@ -9,7 +9,7 @@ import {
     Welcome
 } from '@/components';
 
-export default function Home() {
+const Home = () => {
     const router = useRouter();
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
@@ -40,4 +40,6 @@ export default function Home() {
             </ScrollView>
         </SafeAreaView>
     );
-}
+};
+
+export default Home;
