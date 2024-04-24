@@ -1,16 +1,12 @@
 # **LEARN RACT NATIVE**
 
-It's a project to practice basics of React Natve.
+It's a project to practice basics of React Native.
+Youtbe Video : https://www.youtube.com/watch?v=mJ3bGvy0WAY
 
 ## Project build with
 
--   **EsLint**
--   **Material UI**
--   **Next JS 13**
 -   **Prettier**
--   **Tailwind CSS**
 -   **Typescript**
--   **Zustand JS**
 
 ## Installation
 
@@ -23,7 +19,7 @@ git clone https://github.com/orgFreeLance/buku_dashboard.git
 Once done, go to the project folder by typing :
 
 ```bash
-cd buku_dashboard
+cd Learn_ReactNative
 ```
 
 Once on the root of the project, type this command to install project's dependencies :
@@ -39,13 +35,13 @@ Once done create the `.env` file and config it in reference to `.env.template` f
 Once the configurations are completed, go back to your terminal and type this command to start the project :
 
 ```bash
-npm run dev
+expo-cli start --tunnel
 ```
 
-## Build the project
+OR
 
 ```bash
-npm run build
+npx expo start
 ```
 
 ## Author
